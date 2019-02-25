@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="HTTP_ERROR">请求异常</string>
+    <string name="NETWORD_ERROR">网络连接异常</string>
+    <string name="PARAMS_ERROR">参数错误</string>
+    <string name="PARSE_ERROR">数据解析异常</string>
+    <string name="SERVICE_ERROR">服务器异常</string>
+    <string name="SERVICE_RESULT_ERROR">服务器返回错误</string>
+    <string name="SMS_IDENTIFY_ERROR">验证码提取失败</string>
+    <string name="SSL_ERROR">Https认证异常</string>
+    <string name="UNKNOW">未知异常</string>
+    <string name="UNKNOW_HOST_ERROR">找不到服务器</string>
+    <string name="j_pickerview_cancel">取消</string>
+    <string name="j_pickerview_submit">确定</string>
+    <string name="permission_desc">权限申请说明</string>
+    <string name="permission_desc_info">App运行需要如下权限才能保证功能的正常使用,请授予接下来的权限申请!</string>
+    <string name="permission_ok">好的</string>
+    <string name="permission_rejected">权限被拒绝</string>
+</resources>

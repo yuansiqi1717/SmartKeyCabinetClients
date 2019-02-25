@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--android5.0+要求Primary系列的颜色必须是缺省的或者是透明度为ff的-->
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#333333</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="hint_text_color">#34555555</color>
+    <color name="normal_text_color">#333333</color>
+    <color name="normal_sub_text_color">#777777</color>
+    <color name="line">#D8D8D8</color>
+    <color name="required">#D340B1</color>
+    <color name="required1">#FF6600</color>
+
+    <color name="home_tab_text_unchecked_color">#3F3F3F</color>
+    <color name="home_tab_text_checked_color">#005DDA</color>
+    <color name="light_line">#F0F0F0</color>
+    <color name="none_data_text_color">#999999</color>
+
+    <color name="menu_update_device_bg">#3C8DFB</color>
+    <color name="menu_delete_device_bg">#D340B1</color>
+
+    <color name="select_text_hint_color">#999999</color>
+
+    <color name="app_version_text_color">#7A8484</color>
+    <color name="company_text_color">#AAB4B4</color>
+
+    <color name="under_review_status_text_color">#EB9200</color>
+    <color name="agree_status_text_color">#005DDA</color>
+    <color name="disagree_status_text_color">#E70000</color>
+    <color name="useing_status_text_color">#005DDA</color>
+    <color name="refunded_status_text_color">#00AD30</color>
+
+    <color name="code_text_color">#005DDA</color>
+    <color name="delete_msg_bg">#FF6600</color>
+
+    <color name="key_positon_status_normal">#30ACFF</color>
+    <color name="key_positon_status_used">#FFE600</color>
+
+    <color name="choose_date_complate_text_color">#3C8DFB</color>
+</resources>

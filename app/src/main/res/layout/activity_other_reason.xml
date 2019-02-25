@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/reason_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:paddingLeft="18dp"
+        android:paddingTop="10dp"
+        android:textColorHint="@color/select_text_hint_color"
+        android:textColor="@color/normal_text_color"
+        android:textSize="15dp"
+        android:background="@null"
+        android:hint="请输入原因 (6个字符内)"/>
+
+</android.support.constraint.ConstraintLayout>

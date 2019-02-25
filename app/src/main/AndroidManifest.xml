@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saiyi.smartkeycabinetclient">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".core.app.SmartKeyCabinetClientApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".spalish.ui.SpalishActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SpalishTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 账户模块 -->
+        <activity
+            android:name=".account.ui.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.ui.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.ui.ForgetPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.ui.PerfectInfomationActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 主页模块 -->
+        <activity
+            android:name=".home.ui.HomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 设备模块 -->
+        <activity
+            android:name=".device.ui.AddDeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".device.ui.CarListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".device.ui.CarDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".device.ui.CarGalleryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransformTheme" />
+
+        <!-- 钥匙模块 -->
+        <activity
+            android:name=".key.ui.SelectKeyCabinetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".key.ui.SelectKeyPositionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".key.ui.SelectApproverActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".key.ui.SelectApplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".key.ui.DestinationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".key.ui.ReasonApplicationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".key.ui.OtherReasonActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".application.ui.ApplicationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".application.ui.SearchApplicationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" />
+        <activity
+            android:name=".application.ui.ApplicationDetatilsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".application.ui.UpdateApplicationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".application.ui.EditApplicationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".application.ui.DelayApplicationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".approval.ui.ApprovalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".approval.ui.ApprovalDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".approval.ui.SearchApprovalActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 用户模块 -->
+        <activity
+            android:name=".user.ui.UserInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.ui.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.ui.MessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.ui.AccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.ui.UpdateAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.ui.FeedBackActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
